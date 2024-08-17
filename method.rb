@@ -95,3 +95,9 @@ p foo(1, *args1)
 
 args2 = [1, 2, 3]
 p foo(*args2)
+
+def foo(arg)
+  arg
+end
+
+p foo({"a"=>1, "b"=>2})
