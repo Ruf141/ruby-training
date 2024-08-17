@@ -82,3 +82,16 @@ def area2(x:0, y:0, z:0)
   (xy + yz + zx) * 2
 end
   p area2(x: 2, y: 3, z: 4)
+
+
+def foo(a, b ,c)
+  a + b + c 
+end
+
+p foo(1, 2, 3)
+
+args1 = [2,3]
+p foo(1, *args1)
+
+args2 = [1, 2, 3]
+p foo(*args2)
