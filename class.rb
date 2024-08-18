@@ -20,3 +20,8 @@ p ary.instance_of?(Array)
 p str.instance_of?(String)
 p ary.instance_of?(String)
 p str.instance_of?(Array)
+
+#is-aの関係を調べる
+str = "this is a String."
+p str.is_a?(String)
+p str.is_a?(Object)
