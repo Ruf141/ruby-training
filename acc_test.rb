@@ -7,7 +7,7 @@ class AccTest
 
   def priv
     puts "priv is a private method."
-  end
+ end
 
   private :priv #privメソッドをprivateに設定
 end
