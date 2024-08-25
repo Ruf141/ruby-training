@@ -13,6 +13,6 @@ p c.meth
 p C.ancestors
 p C.superclass
 
-#継承関係を調べるにはancestorsメソッドを使う
-#superclassのメソッドは直接のsuperclassを返す
-#Ker
+#継承関係を調べるにはAncestorsメソッドを使う
+#SuperClassのメソッドは直接のSuperClassを返す
+#KernelモジュールはObjectクラスのSuperClass
