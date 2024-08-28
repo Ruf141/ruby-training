@@ -4,5 +4,5 @@ def fetch_and_downcase(ary, index)
   end
 end
 
-ary = ["Boo", "Foo", "Woo"]
+ary = ["Boo", "Ooo", "Woo"]
 p fetch_and_downcase(ary, 1)
