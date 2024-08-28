@@ -1,5 +1,8 @@
 p "".emdddpty?
 p "AAA".empty?
+p "AAA".empty?
+p "AAA".empty?
+p "AAA".empty?
 
 =begin
 Rubyの真偽値
